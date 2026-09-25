@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" width="360" height="120">
-  <!-- Placeholder logo — replace this file (or point assets/logo/oriflows-fashion-logo.png
-       at the real logo) once the final brand mark is available. -->
-  <circle cx="46" cy="44" r="30" fill="none" stroke="#6B1F2A" stroke-width="2.5"/>
-  <text x="46" y="53" font-family="Georgia, serif" font-size="30" fill="#6B1F2A" text-anchor="middle">O</text>
-  <text x="90" y="52" font-family="Georgia, serif" font-size="30" fill="#2A211D">ORIFLOWS</text>
-  <text x="90" y="74" font-family="Arial, sans-serif" font-size="12" letter-spacing="4" fill="#AD8A55">FASHION</text>
-  <text x="90" y="94" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#6B5F58">Elegant Styles, Everyday Confidence.</text>
-</svg>
