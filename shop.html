@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop All Collections | Oriflows Fashion</title>
+<meta name="description" content="Browse the full Oriflows Fashion collection of premium 2 & 3 piece women's outfits. Filter by category and price, with nationwide delivery across Bangladesh.">
+<link rel="canonical" href="https://fashion.oriflows.com/shop">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-name">Oriflows</span>
+      <span class="brand-sub">FASHION</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="shop.html" aria-current="page">Shop</a>
+      <a href="shop.html?category=2%20Piece">2 Piece</a>
+      <a href="shop.html?category=3%20Piece">3 Piece</a>
+      <a href="shop.html#top">New Arrivals</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#" class="btn btn-whatsapp btn-sm nav-whatsapp" target="_blank" rel="noopener" data-whatsapp-hero>Order on WhatsApp</a>
+      <button type="button" class="icon-btn" data-search-open aria-label="Search products">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <a href="cart.html" class="icon-btn" aria-label="View cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="cart-count" data-cart-count data-count="0">0</span>
+      </a>
+      <button type="button" class="hamburger" data-hamburger aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" data-mobile-menu>
+  <div class="mobile-menu-top">
+    <span class="brand-name" style="color:var(--color-primary)">Oriflows</span>
+    <button type="button" class="mobile-menu-close" data-mobile-menu-close aria-label="Close menu">&times;</button>
+  </div>
+  <ul class="mobile-menu-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="shop.html?category=2%20Piece">2 Piece</a></li>
+    <li><a href="shop.html?category=3%20Piece">3 Piece</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="mobile-menu-footer">
+    <a href="cart.html" class="btn btn-outline btn-block">View Cart</a>
+    <a href="#" class="btn btn-whatsapp btn-block" target="_blank" rel="noopener" data-whatsapp-hero>Order on WhatsApp</a>
+  </div>
+</div>
+
+<div class="search-overlay" data-search-overlay>
+  <div class="search-box">
+    <form onsubmit="return false;">
+      <input type="search" placeholder="Search dresses, colors, styles..." data-search-input aria-label="Search products">
+      <button type="button" data-search-close aria-label="Close search">&times;</button>
+    </form>
+    <div class="search-results" data-search-results></div>
+  </div>
+</div>
+
+<main id="main">
+  <div class="page-header">
+    <div class="container">
+      <h1>Shop the Collection</h1>
+      <p class="section-lede">Premium 2 &amp; 3 piece sets, ready to ship nationwide across Bangladesh.</p>
+    </div>
+  </div>
+
+  <div class="container section" id="top">
+    <button type="button" class="filter-toggle" data-filter-toggle>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="9" cy="6" r="1.6" fill="currentColor" stroke="none"/><circle cx="15" cy="12" r="1.6" fill="currentColor" stroke="none"/><circle cx="9" cy="18" r="1.6" fill="currentColor" stroke="none"/></svg>
+      Filters
+    </button>
+
+    <div class="shop-layout" style="margin-top:16px;">
+      <aside class="filter-panel" data-filter-panel>
+        <div class="filter-group">
+          <p class="filter-group-title">Category</p>
+          <div class="filter-chip-row">
+            <button type="button" class="filter-chip" data-category-chip="All" aria-pressed="true">All</button>
+            <button type="button" class="filter-chip" data-category-chip="2 Piece" aria-pressed="false">2 Piece</button>
+            <button type="button" class="filter-chip" data-category-chip="3 Piece" aria-pressed="false">3 Piece</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <p class="filter-group-title">Max Price</p>
+          <div class="price-range-row">
+            <span>৳500</span>
+            <input type="range" min="500" max="5000" step="100" value="5000" data-price-range>
+            <span data-price-range-value>৳5,000</span>
+          </div>
+        </div>
+        <div class="filter-actions">
+          <button type="button" class="btn btn-outline btn-sm btn-block" data-clear-filters>Clear Filters</button>
+        </div>
+      </aside>
+
+      <div>
+        <div class="shop-toolbar">
+          <span class="result-count" data-result-count>Loading…</span>
+          <select class="select-control" data-sort-select aria-label="Sort products">
+            <option value="featured">Sort: Featured</option>
+            <option value="newest">Sort: Newest</option>
+            <option value="price-asc">Sort: Price — Low to High</option>
+            <option value="price-desc">Sort: Price — High to Low</option>
+          </select>
+        </div>
+
+        <div class="grid" data-shop-grid></div>
+        <div class="empty-state" data-shop-empty style="display:none;">
+          <p>No products match these filters yet. Try widening your price range or choosing a different category.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">ORIFLOWS FASHION</span>
+        <p class="footer-tagline">Elegant Styles, Everyday Confidence.</p>
+        <div class="footer-social">
+          <a href="https://facebook.com/oriflowsfashion" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5H16l.4-3H13.5V8.4c0-.9.2-1.5 1.6-1.5H16.5V4.2C16.2 4.1 15.2 4 14 4c-2.4 0-4 1.5-4 4.2V10.5H7.5v3H10V21z"/></svg></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 3v10.7a3.3 3.3 0 1 1-2-3V8a5.3 5.3 0 1 0 4 5.1V8.8c.9.6 2 1 3.2 1V7.6c-2 0-3.6-1.5-3.6-3.4V3z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="delivery.html">Delivery &amp; Return</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Customer Support</h4>
+        <ul>
+          <li><a href="#" target="_blank" rel="noopener" data-whatsapp-hero>WhatsApp</a></li>
+          <li><a href="https://facebook.com/oriflowsfashion" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="#" target="_blank" rel="noopener">Instagram (coming soon)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>fashion.oriflows.com</span>
+      <span>&copy; 2026 Oriflows Fashion. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="whatsapp-float" target="_blank" rel="noopener" data-whatsapp-hero aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.8 14.2c-.3.8-1.5 1.4-2.4 1.6-.6.1-1.4.2-4-.9-3.3-1.4-5.4-4.7-5.6-4.9-.2-.2-1.3-1.7-1.3-3.3s.8-2.3 1.1-2.6c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.8 1 2.6 1.1 2.8.1.2.2.4 0 .7-.1.3-.2.4-.4.6l-.6.6c-.2.2-.4.4-.2.8.2.4.9 1.6 2 2.5 1.4 1.2 2.5 1.6 2.9 1.8.4.2.6.1.8-.1l.9-1c.3-.3.5-.3.8-.2l2.3 1.1c.3.1.5.2.5.4.1.2.1 1-.2 1.8z"/></svg>
+  <span>Chat with us</span>
+</a>
+
+<script src="js/app.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/products.js"></script>
+<script>
+  // Pre-select the category chip that matches ?category= in the URL
+  document.addEventListener('DOMContentLoaded', function () {
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get('category');
+    if (cat) {
+      Oriflows.qsa('[data-category-chip]').forEach(function (chip) {
+        chip.setAttribute('aria-pressed', chip.getAttribute('data-category-chip') === cat ? 'true' : 'false');
+      });
+    }
+  });
+</script>
+</body>
+</html>
