@@ -1,0 +1,90 @@
+/* ==========================================================================
+   ORIFLOWS FASHION — RESPONSIVE OVERRIDES
+   Base styles in style.css are mobile-first; this file layers on
+   enhancements for wider viewports.
+   ========================================================================== */
+
+/* ---------- Tablet: 600px+ ---------- */
+@media (min-width: 600px) {
+  .grid { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .value-grid { grid-template-columns: repeat(4, 1fr); }
+  .footer-grid { grid-template-columns: 1.3fr 1fr 1fr; }
+  .about-values { grid-template-columns: repeat(2, 1fr); }
+  .social-grid { grid-template-columns: repeat(4, 1fr); }
+  .scroll-row .product-card { min-width: 42vw; }
+}
+
+/* ---------- Desktop: 900px+ ---------- */
+@media (min-width: 900px) {
+  .container { padding: 0 32px; }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-size: 0.92rem;
+  }
+  .nav-links a { position: relative; padding: 6px 0; }
+  .nav-links a::after {
+    content: '';
+    position: absolute; left: 0; right: 0; bottom: 0;
+    height: 1px; background: var(--color-primary);
+    transform: scaleX(0); transform-origin: left;
+    transition: transform .2s ease;
+  }
+  .nav-links a:hover::after, .nav-links a[aria-current="page"]::after { transform: scaleX(1); }
+  .nav-links a[aria-current="page"] { color: var(--color-primary); }
+
+  .hamburger { display: none; }
+  .nav-whatsapp { display: inline-flex; }
+
+  .hero { padding: 64px 0 88px; }
+  .hero-grid {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+    gap: 56px;
+  }
+  .hero-copy { text-align: left; }
+  .hero-copy .section-lede { margin: 0 0 32px; }
+  .hero-actions { justify-content: flex-start; }
+  .hero-figure { width: 100%; max-width: 460px; justify-self: end; }
+
+  .grid { grid-template-columns: repeat(4, 1fr); }
+
+  .section { padding: 80px 0; }
+
+  .value-item { text-align: left; padding: 0 20px 0 0; }
+  .value-icon { margin: 0 0 16px; }
+
+  .shop-layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 32px;
+    align-items: flex-start;
+  }
+  .filter-toggle { display: none; }
+  .filter-panel { display: block; position: sticky; top: calc(var(--nav-height) + 24px); margin-bottom: 0; }
+
+  .pdp-grid { grid-template-columns: 1fr 1fr; gap: 56px; }
+
+  .about-block { grid-template-columns: 1fr 1fr; }
+  .about-block.reverse > *:first-child { order: 2; }
+
+  .contact-grid { grid-template-columns: 0.85fr 1.15fr; }
+
+  .cart-layout { display: grid; grid-template-columns: 1fr 340px; gap: 40px; align-items: flex-start; }
+  .cart-summary { position: sticky; top: calc(var(--nav-height) + 24px); }
+
+  .cta-banner form { flex-direction: row; }
+  .cta-banner input[type="email"] { flex: 1; }
+
+  .footer-bottom { flex-direction: row; justify-content: space-between; text-align: left; }
+
+  .cart-item { grid-template-columns: 96px 1fr; }
+  .cart-item img { width: 96px; height: 120px; }
+}
+
+/* ---------- Large desktop: 1200px+ ---------- */
+@media (min-width: 1200px) {
+  .hero-figure { max-width: 520px; }
+}

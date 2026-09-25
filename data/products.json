@@ -1,0 +1,154 @@
+[
+  {
+    "id": "ORI-001",
+    "name": "Crimson Grace 3 Piece",
+    "slug": "crimson-grace-3-piece",
+    "category": "3 Piece",
+    "price": 3450,
+    "oldPrice": 4200,
+    "discount": 18,
+    "images": [
+      "assets/images/products/product-001-1.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "fabric": "Premium Embroidered Georgette",
+    "color": "Deep Red",
+    "stock": true,
+    "featured": true,
+    "newArrival": true,
+    "description": "A richly embroidered three-piece set in deep crimson, finished with a hand-worked border on the dupatta. Made for occasions that call for quiet drama — festive gatherings, family functions, and evenings that deserve a little more attention."
+  },
+  {
+    "id": "ORI-002",
+    "name": "Sage Stripe 3 Piece",
+    "slug": "sage-stripe-3-piece",
+    "category": "3 Piece",
+    "price": 2650,
+    "oldPrice": 3100,
+    "discount": 15,
+    "images": [
+      "assets/images/products/product-002-1.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "fabric": "Soft Cotton Blend",
+    "color": "Sage Green",
+    "stock": true,
+    "featured": true,
+    "newArrival": false,
+    "description": "Fine sage stripes with a gold-toned embroidered yoke, cut for everyday elegance. Breathable fabric that moves easily through a full day — office, errands, or an unhurried afternoon out."
+  },
+  {
+    "id": "ORI-003",
+    "name": "Olive Leaf 3 Piece",
+    "slug": "olive-leaf-3-piece",
+    "category": "3 Piece",
+    "price": 2450,
+    "oldPrice": 0,
+    "discount": 0,
+    "images": [
+      "assets/images/products/product-003-1.jpg"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "fabric": "Pure Cotton",
+    "color": "Olive Green",
+    "stock": true,
+    "featured": true,
+    "newArrival": true,
+    "description": "A leaf-toned print in layered greens, with a delicately embroidered neckline. Light enough for daily wear, striking enough to remember."
+  },
+  {
+    "id": "ORI-004",
+    "name": "Ivory Bloom 3 Piece",
+    "slug": "ivory-bloom-3-piece",
+    "category": "3 Piece",
+    "price": 3150,
+    "oldPrice": 3600,
+    "discount": 13,
+    "images": [
+      "assets/images/products/product-004-1.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "fabric": "Premium Organza with Cotton Lining",
+    "color": "Ivory",
+    "stock": true,
+    "featured": false,
+    "newArrival": true,
+    "description": "Ink-black floral motifs over soft ivory, edged in muted gold. A refined set for daytime events where you want to look considered, not costumed."
+  },
+  {
+    "id": "ORI-005",
+    "name": "Burgundy Trail 2 Piece",
+    "slug": "burgundy-trail-2-piece",
+    "category": "2 Piece",
+    "price": 1890,
+    "oldPrice": 2190,
+    "discount": 14,
+    "images": [
+      "assets/images/products/placeholder-005.svg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "fabric": "Premium Cotton",
+    "color": "Burgundy",
+    "stock": true,
+    "featured": false,
+    "newArrival": false,
+    "description": "A clean, versatile two-piece in our signature burgundy, designed for effortless everyday wear. Photo placeholder — replace with real product photography in assets/images/products/."
+  },
+  {
+    "id": "ORI-006",
+    "name": "Golden Hour 3 Piece",
+    "slug": "golden-hour-3-piece",
+    "category": "3 Piece",
+    "price": 2990,
+    "oldPrice": 0,
+    "discount": 0,
+    "images": [
+      "assets/images/products/placeholder-006.svg"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "fabric": "Chikankari Cotton",
+    "color": "Gold",
+    "stock": true,
+    "featured": false,
+    "newArrival": true,
+    "description": "Warm gold tones with fine chikankari-inspired handwork. Photo placeholder — replace with real product photography in assets/images/products/."
+  },
+  {
+    "id": "ORI-007",
+    "name": "Charcoal Bloom 2 Piece",
+    "slug": "charcoal-bloom-2-piece",
+    "category": "2 Piece",
+    "price": 1750,
+    "oldPrice": 1990,
+    "discount": 12,
+    "images": [
+      "assets/images/products/placeholder-007.svg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "fabric": "Linen Cotton",
+    "color": "Charcoal",
+    "stock": false,
+    "featured": false,
+    "newArrival": false,
+    "description": "A quiet charcoal palette with a subtle floral trace. Currently out of stock. Photo placeholder — replace with real product photography in assets/images/products/."
+  },
+  {
+    "id": "ORI-008",
+    "name": "Wine Garden 3 Piece",
+    "slug": "wine-garden-3-piece",
+    "category": "3 Piece",
+    "price": 3290,
+    "oldPrice": 3790,
+    "discount": 13,
+    "images": [
+      "assets/images/products/placeholder-008.svg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "fabric": "Premium Georgette",
+    "color": "Wine",
+    "stock": true,
+    "featured": true,
+    "newArrival": false,
+    "description": "A garden-inspired embroidery motif on rich wine georgette, with a matching net dupatta. Photo placeholder — replace with real product photography in assets/images/products/."
+  }
+]

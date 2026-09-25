@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <rect width="800" height="1000" fill="#F6EFE6"/>
+  <rect x="24" y="24" width="752" height="952" fill="none" stroke="#6B1F2A" stroke-width="1.5" opacity="0.35"/>
+  <path d="M400 260 C 340 260 300 320 300 400 L 300 780 L 500 780 L 500 400 C 500 320 460 260 400 260 Z"
+        fill="none" stroke="#6B1F2A" stroke-width="2" opacity="0.55"/>
+  <line x1="300" y1="420" x2="230" y2="620" stroke="#6B1F2A" stroke-width="2" opacity="0.45"/>
+  <line x1="500" y1="420" x2="570" y2="620" stroke="#6B1F2A" stroke-width="2" opacity="0.45"/>
+  <circle cx="400" cy="230" r="34" fill="none" stroke="#6B1F2A" stroke-width="2" opacity="0.55"/>
+  <text x="400" y="900" font-family="Georgia, serif" font-size="26" fill="#6B1F2A" text-anchor="middle" opacity="0.8">ORIFLOWS FASHION</text>
+  <text x="400" y="935" font-family="Georgia, serif" font-size="16" fill="#6B1F2A" text-anchor="middle" opacity="0.55">Wine Garden 3 Piece</text>
+  <text x="400" y="965" font-family="Georgia, serif" font-size="13" fill="#6B1F2A" text-anchor="middle" opacity="0.4">Product photo placeholder — replace in assets/images/products/</text>
+</svg>
