@@ -6,7 +6,7 @@
 window.ORIFLOWS_CONFIG = {
   // WhatsApp number in international format, digits only, no + or spaces.
   // Example for Bangladesh: "8801XXXXXXXXX"
-  WHATSAPP_NUMBER: "8801700000000",
+  WHATSAPP_NUMBER: "8801644487822",
 
   CURRENCY_SYMBOL: "\u09F3", // ৳
   DELIVERY_CHARGE_DHAKA: 70,
